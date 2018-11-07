@@ -1,0 +1,21 @@
+{
+    "name": "wakeonweb/kong-oauth2-firewall-bundle",
+    "description": "Kong OAuth2 Firewall Bundle",
+    "type": "symfony-bundle",
+    "require": {
+        "guzzlehttp/guzzle": "~6.3",
+        "symfony/framework-bundle": "^4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quentin Schuler",
+            "email": "qschuler@neosyne.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WakeOnWeb\\Bundle\\KongOAuth2FirewallBundle\\": "src/"
+        }
+    }
+}
